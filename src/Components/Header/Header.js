@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import { FiUser } from "react-icons/fi";
 import { IoBagOutline } from "react-icons/io5";
 import SearchBox from "./searchBox/search";
-import Navigation from "./Navigation";
+import Navigation from "./Navigation"
 import { useContext } from "react";
 import { MyContext } from "../../App";
 import Country from "../CountryDropdown/country";
@@ -17,7 +17,7 @@ const Header = () => {
             <div className="headerWrapper">
                 <div className="top-strip bg-blue">
                     <div className="container">
-                        <p className="mb-0 mt-0 text-center">Due to the COVID-19 pandemic, orders may be processed with a slight delay</p>
+                        <p className="mb-0 mt-0 text-center">Due to the COVID-19 pandemic, orders may be processed with a slight delay...</p>
                     </div>
                 </div>
                 <header className="header">
